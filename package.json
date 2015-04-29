@@ -1,0 +1,28 @@
+{
+  "name": "load-testing",
+  "version": "1.0.0",
+  "description": "Load testing module ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/load-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "\"load",
+    "testing\"",
+    "load"
+  ],
+  "author": "Doron Segal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/load-testing/issues"
+  },
+  "homepage": "https://github.com/doron2402/load-testing",
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
