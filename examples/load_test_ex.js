@@ -1,11 +1,10 @@
 var loadTest = require('../');
 var args = {
-	// url: 'http://search-site.ci-uswest2.otenv.com/s',
-	url: 'http://www.opentable.com/s/',
-	numberOfRequest: 30,
+	url: 'http://search-site.ci-uswest2.otenv.com/s',
+	numberOfRequest: 40,
 	statusCodeToExpect: 200,
 	checkForStatusCode: true,
-	waitBetweenCalls: 250,
+	waitBetweenCalls: 400,
 	params: {
 		metroId: {
 			type: 'Number',
