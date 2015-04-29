@@ -3,8 +3,7 @@ var args = {
 	url: 'http://search-site.ci-uswest2.otenv.com/s',
 	numberOfRequest: 40,
 	statusCodeToExpect: 200,
-	checkForStatusCode: true,
-	waitBetweenCalls: 400,
+	waitBetweenCalls: 200,
 	params: {
 		metroId: {
 			type: 'Number',
