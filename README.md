@@ -3,7 +3,7 @@
 ## Need to test your app? want to check how its stand DDOS attack?
 
 ## How to start
-
+```js
 var loadTest = require('load-testing');
 var args = {
 	url: 'http://www.example.com', //URL
@@ -28,6 +28,8 @@ var args = {
 };
 
 loadTest.init(args); //Start
+
+```
 
 
 
