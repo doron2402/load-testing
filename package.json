@@ -4,8 +4,7 @@
   "description": "Load testing module ",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests/test.js",
-    "preinstall": "npm install && npm test"
+    "test": "./node_modules/mocha/bin/mocha tests/test.js"
   },
   "repository": {
     "type": "git",
