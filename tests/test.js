@@ -15,4 +15,10 @@ describe('.init', function () {
 
     });
   });
+
+  context('when runInParallel is false' function () {
+    it('executes the requests sequentially', function () {
+
+    });
+  });
 });
