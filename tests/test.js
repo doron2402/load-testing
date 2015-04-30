@@ -1,9 +1,18 @@
-var assert = require("assert")
-describe('Array', function(){
-  describe('#indexOf()', function(){
-    it('should return -1 when the value is not present', function(){
-      assert.equal(-1, [1,2,3].indexOf(5));
-      assert.equal(-1, [1,2,3].indexOf(0));
-    })
-  })
+describe('.init', function () {
+  it('calls request numberOfRequest times', function () {
+  });
+
+  it('does not exceed the rate limit determined by waitBetweenCalls', function () {
+
+  });
+
+  it('prints statements which accurately reflect the request success rate', function () {
+
+  });
+
+  context('when runInParallel is true' function () {
+    it('executes the requests in parallel', function () {
+
+    });
+  });
 });
