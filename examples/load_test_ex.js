@@ -1,9 +1,9 @@
 var loadTest = require('../');
 var args = {
 	url: 'http://search-site.ci-uswest2.otenv.com/s',
-	numberOfRequest: 10,
+	numberOfRequest: 100,
 	statusCodeToExpect: 200,
-	waitBetweenCalls: 400,
+	waitBetweenCalls: 50,
 	runInParallel: true,
 	params: {
 		metroId: {
@@ -18,7 +18,8 @@ var args = {
 		dataTime: {
 			type: 'Date'
 		}
-	}
+	},
+	runInParallel: true
 };
 
 loadTest.init(args);

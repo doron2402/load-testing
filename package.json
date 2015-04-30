@@ -4,8 +4,7 @@
   "description": "Load testing module ",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests/test.js",
-    "preinstall": "npm install && npm test"
+    "test": "./node_modules/mocha/bin/mocha tests/acceptance.test.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,8 @@
     "highland": "^2.4.0",
     "lodash": "^3.7.0",
     "moment": "^2.10.2",
-    "request": "^2.55.0"
+    "request": "^2.55.0",
+    "sinon": "^1.14.1"
   },
   "devDependencies": {
     "mocha": "^2.2.4"
