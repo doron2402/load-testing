@@ -4,6 +4,7 @@ var args = {
 	numberOfRequest: 10,
 	statusCodeToExpect: 200,
 	waitBetweenCalls: 400,
+	runInParallel: true,
 	params: {
 		metroId: {
 			type: 'Array',
