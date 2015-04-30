@@ -1,9 +1,9 @@
 var loadTest = require('../');
 var args = {
 	url: 'http://search-site.ci-uswest2.otenv.com/s',
-	numberOfRequest: 40,
+	numberOfRequest: 10,
 	statusCodeToExpect: 200,
-	waitBetweenCalls: 200,
+	waitBetweenCalls: 400,
 	params: {
 		metroId: {
 			type: 'Array',
