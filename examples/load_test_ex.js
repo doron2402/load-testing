@@ -6,7 +6,7 @@ var args = {
 	waitBetweenCalls: 200,
 	params: {
 		metroId: {
-			type: 'Number',
+			type: 'Array',
 			options: [8, 4, 72]
 		},
 		covers: {
