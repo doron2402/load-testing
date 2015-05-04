@@ -11,6 +11,7 @@ var args = {
 	statusCodeToExpect: 200, // Status code expecting as response (Numer)
 	waitBetweenCalls: 50,		// Wait between calls in MS (Number)
 	runInParallel: true,		// run in parallel or seriers default is parallel (BOOL)
+	requestMethod: 'get'		// request Method could be 'post', 'get', 'put', 'delete' (String)
 	params: {								// add param to your url
 		username: {						// in this param ?username could be equal to doron or max or evan randomly
 			type: 'Array',

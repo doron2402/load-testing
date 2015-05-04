@@ -1,6 +1,6 @@
 var loadTest = require('../');
 var args = {
-	url: 'http://search-site.ci-uswest2.otenv.com/s',
+	url: 'http://someurl.com/path',
 	numberOfRequest: 100,
 	statusCodeToExpect: 200,
 	waitBetweenCalls: 50,
@@ -19,7 +19,8 @@ var args = {
 			type: 'Date'
 		}
 	},
-	runInParallel: true
+	runInParallel: true,
+	requestMethod: 'post'
 };
 
 loadTest.init(args);
