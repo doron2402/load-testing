@@ -40,6 +40,7 @@ loadTest.init(args); //Start
 	-	statusCodeToExpect (Number) - default 200
 	- waitBetweenCalls (Number)   - default 200MS
 	- runInParallel (BOOL)			  - default TRUE
+	- requestMethod	(String)			- default 'get'
 	- params (Object)							- Optional
 	- params type :
 		- type: 'Array' or 'array' will return random value from array
