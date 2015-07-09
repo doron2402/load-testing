@@ -1,10 +1,10 @@
 var loadTest = require('../');
 var args = {
 	url: 'http://someurl.com/path',
-	numberOfRequest: 100,
+	numberOfRequests: 10,
 	statusCodeToExpect: 200,
 	waitBetweenCalls: 50,
-	runInParallel: true,
+	runInParallel: false,
 	params: {
 		metroId: {
 			type: 'Array',
