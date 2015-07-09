@@ -1,6 +1,6 @@
 var assert = require('assert');
 var sinon = require('sinon');
-var loadTesting = require('../');
+var loadTesting = require('..');
 var http = require('http');
 var PORT = 9876;
 var httpServer;
@@ -26,7 +26,7 @@ describe('Acceptance Test', function() {
 	describe('When Config', function(){
 		var configJson = {
 			url: 'http://localhost:' + PORT,
-			numberOfRequest: 10,
+			numberOfRequests: 10,
 			statusCodeToExpect: 200,
 			waitBetweenCalls: 100,
 			runInParallel: true,
@@ -54,8 +54,8 @@ describe('Acceptance Test', function() {
 			sinon.assert.calledWithExactly(console.log, '>> Starting Load Test');
 		});
 
-		it('Should return status 200', function(){
-			sinon.assert.calledWithExactly(console.log, 'Request: status = 200');
-		});
+		it('Should run 10 times (eq to numberOfRequests)', function() {
+		  sinon.assert.calledWithExactly(console.log, 'Going to Run: 10 times.');
+		}); 
 	});
 });

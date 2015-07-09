@@ -7,7 +7,7 @@
 var loadTest = require('load-testing');
 var args = {
 	url: 'http://www.example.com', //URL
-	numberOfRequest: 100, 		//Number of request you want to create could be any number (Numer)
+	numberOfRequests: 100, 		//Number of request you want to create could be any number (Numer)
 	statusCodeToExpect: 200, // Status code expecting as response (Numer)
 	waitBetweenCalls: 50,		// Wait between calls in MS (Number)
 	runInParallel: true,		// run in parallel or seriers default is parallel (BOOL)
