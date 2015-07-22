@@ -62,7 +62,7 @@ describe('Acceptance Test', function() {
     });
   });
 
-  describe('When Config is in parallel', function(){
+  describe('When Config is not in parallel', function(){
     var configJson = {
       url: 'http://localhost:' + PORT,
       numberOfRequests: 10,
