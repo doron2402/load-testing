@@ -1,6 +1,6 @@
 {
   "name": "load-testing",
-  "version": "0.0.51",
+  "version": "1.0.0",
   "description": "Load testing module ",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
   },
   "keywords": [
     "testing",
-    "\"load",
-    "testing\"",
+    "load-testing",
+    "performance-test",
     "load"
   ],
   "author": "Doron Segal",
@@ -26,8 +26,7 @@
     "highland": "^2.4.0",
     "lodash": "^3.7.0",
     "moment": "^2.10.2",
-    "request": "^2.55.0",
-    "sinon": "^1.14.1"
+    "request": "^2.55.0"
   },
   "devDependencies": {
     "mocha": "^2.2.4",

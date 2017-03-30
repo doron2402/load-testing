@@ -36,11 +36,11 @@ loadTest.init(args); //Start
 
 ### Options
 	- url (MUST)
-	-	numberOfRequest (Number)		- default 100
-	-	statusCodeToExpect (Number) - default 200
-	- waitBetweenCalls (Number)   - default 200MS
-	- runInParallel (BOOL)			  - default TRUE
-	- params (Object)							- Optional
+	-	numberOfRequest (Number)		(default 100)
+	-	statusCodeToExpect (Number) (default 200)
+	- waitBetweenCalls (Number)   (default 200MS)
+	- runInParallel (BOOL)			  (default TRUE)
+	- params (Object)							(Optional)
 	- params type :
 		- type: 'Array' or 'array' will return random value from array
 			- options: []
