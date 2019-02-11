@@ -24,7 +24,7 @@
   "homepage": "https://github.com/doron2402/load-testing",
   "dependencies": {
     "highland": "^2.4.0",
-    "lodash": "^3.7.0",
+    "lodash": "^4.17.11",
     "moment": "^2.10.2",
     "request": "^2.55.0"
   },
