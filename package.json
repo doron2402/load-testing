@@ -1,6 +1,6 @@
 {
   "name": "load-testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load testing module ",
   "main": "index.js",
   "scripts": {
